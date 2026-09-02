@@ -6,7 +6,7 @@
         "appIDs": ["FRV74A8VPP.kr.co.koscom.koreaetf.km-koreaetf-test"],
         "components": [
           {
-            "/": "/deep-link-test/test"
+            "/": "/open"
           }
         ]
       }
