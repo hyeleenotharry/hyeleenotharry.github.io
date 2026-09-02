@@ -10,5 +10,20 @@
         "22:7E:92:D7:34:1B:6D:F6:CE:47:93:85:9E:24:12:B1:1D:56:E6:A5:98:9A:C8:B0:A9:0B:2E:12:4B:84:DF:F7"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "kr.co.koscom.koreaetf.km_koreaetf_test",
+      "sha256_cert_fingerprints": [
+        "B7:F0:1E:77:1F:AA:C0:EF:1A:D1:1E:EF:E5:52:B4:D0:AC:06:F2:9A:FD:56:D1:BE:92:7B:49:F7:44:F0:3C:D5",
+        "F2:2D:C1:00:CA:2A:5F:11:1B:2A:43:69:F3:B8:A6:15:4D:A3:59:30:14:A8:C8:CF:AC:CF:BC:9E:38:34:E9:E8",
+        "DC:91:67:51:27:F5:B3:2C:78:30:0F:3D:E2:5C:2A:BF:2D:6D:93:A4:8A:4C:D5:75:2E:84:2A:74:8A:92:87:FA"
+      ]
+    }
   }
 ]
