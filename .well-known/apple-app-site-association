@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["FRV74A8VPP.kr.co.koscom.koreaetf.km_koreaetf_test"],
+        "components": [
+          {
+            "/": "/deep-link-test/test"
+          }
+        ]
+      }
+    ]
+  }
+}
