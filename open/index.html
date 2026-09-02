@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+  #custom-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-hidden {
+  display: none !important;
+}
+
+.alert-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.alert-buttons {
+  margin-top: 20px;
+}
+
+.alert-buttons button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+</style>
+
+<body>
+
+  <div id="content">
+    <img src="KOREA ETF 랜딩 스플래시 화면_20260828.svg"/>
+  </div>
+</div>
+
+  <script>
+    const userAgent = navigator.userAgent;
+
+    const isAndroid = /Android/i.test(userAgent);
+    const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
+
+    const content = document.getElementById("content");
+
+    function open_app_or_store() {
+      if (isAndroid) {
+        window.location.href =
+          "intent://hyeleenotharry.github.io/deep-link-test/test" +
+          "#Intent;" +
+          "scheme=https;" +
+          "action=android.intent.action.VIEW;" +
+          "category=android.intent.category.BROWSABLE;" +
+          "package=kr.co.koscom.koreaetf.km_koreaetf_test;" +
+          "S.browser_fallback_url=" +
+          encodeURIComponent(
+            "https://play.google.com/apps/internaltest/4701525029199711949"
+          ) +
+          ";end";
+      } else if (isIOS) {
+        
+        // 다른 도메인에 있는 ios 용 deep link
+        window.location.href = "https://ios-deeplink-test.github.io/open";
+  
+      } else {
+        alert("모바일에서 실행해 주십시오.");
+        window.location.href = "https://www.koreaetf.com/";
+      }
+
+    }
+    open_app_or_store();
+    
+  </script>
+
+</body>
+</html>
