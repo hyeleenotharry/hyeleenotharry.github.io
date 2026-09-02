@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appIDs": ["FRV74A8VPP.kr.co.koscom.koreaetf.km_koreaetf_test"],
+        "appIDs": ["FRV74A8VPP.kr.co.koscom.koreaetf.km-koreaetf-test"],
         "components": [
           {
             "/": "/deep-link-test/test"
