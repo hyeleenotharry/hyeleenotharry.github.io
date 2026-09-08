@@ -3,17 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appIDs": [
-          "FRV74A8VPP.kr.co.koscom.koreaetf.kmKoreaetf"
-        ],
-        "components": [
-          {
-            "/": "/open"
-          },
-          {
-            "/": "/open/*"
-          }
-        ]
+        "appID": "FRV74A8VPP.kr.co.koscom.koreaetf.kmKoreaetf",
+        "paths": ["/open", "/open/*"]
       }
     ]
   }
