@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "FRV74A8VPP.kr.co.koscom.koreaetf.kmKoreaetf",
-        "paths": ["/open", "/open/*"]
+        "paths": ["/open", "/open/*", "/open?*"]
       }
     ]
   }
